@@ -12,6 +12,10 @@ class UserController extends Controller
 		return view('user.user_login');
 	}
 
+    public function dashboard(){
+		return view('home');
+	}
+    
 	public function self(){
 		return view('user.goalsheet.self');
 	}
