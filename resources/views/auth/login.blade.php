@@ -32,7 +32,7 @@
                                 
                                 <div class="text-center mb-4">
                                     <a href="index.html">
-                                        <span><img src="{{ asset('panel/images/New_Kritva_logo.png')}}" alt="" height="55"></span>
+                                        <span><img src="{{ asset('Frontend/images/New_Kritva_logo.png')}}" alt="" height="55"></span>
                                     </a>
                                 </div>
 
