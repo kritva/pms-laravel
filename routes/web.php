@@ -18,15 +18,15 @@ use App\Http\Controllers\UserController;
 
 /* ----------- Admin Route ---------- */
 
-Route::prefix('admin')->group(function (){
+// Route::prefix('admin')->group(function (){
 
-Route::get('/login',[AdminController::class,'Index'])->name('login');
+// Route::get('/login',[AdminController::class,'Index'])->name('login');
 
-Route::post('/login/owner',[AdminController::class,'Login'])->name('admin.login');
+// Route::post('/login/owner',[AdminController::class,'Login'])->name('admin.login');
 
-Route::get('/dashboard',[AdminController::class,'dashboard'])->name('admin.dashboard');
+// Route::get('/dashboard',[AdminController::class,'dashboard'])->name('admin.dashboard');
 
-});
+// });
 
 /* ----------- EndAdmin Route ---------- */
 
@@ -34,7 +34,7 @@ Route::get('/dashboard',[AdminController::class,'dashboard'])->name('admin.dashb
 
 
 Route::get('/', function () {
-    return view('home');
+    return view('auth.login');
 });
 
 Route::get('/user/login',[UserController::class,'Index'])->name('login');
