@@ -70,7 +70,7 @@
                         <li class="float-left logo-box">
                             <a href="index.html" class="logo">
                                 <span class="logo-lg">
-                                    <img src="assets/images/New_Kritva_logo.png" alt="" height="48">
+                                    <img src="{{ asset('panel/images/New_Kritva_logo.png')}}" alt="" height="48">
                                 </span>
                             </a>
                         </li>
